@@ -36,4 +36,35 @@ img{
     flex: 2;
 }
 
-.content
+a{
+    display:inline-block;
+    text-decoration: none;
+    background-color: rgb(27, 90, 41);
+    color:rgb(47, 30, 207);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 18px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0);
+    align-items:center;
+}
+
+a:hover{
+    background-color: rgb(153, 85, 96);
+    box-shadow: 0 10px 6px rgb(0, 0, 0);
+}
+
+.galery{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.galery img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+}
